@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fix date and age design</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Orbitron:wght@400;800&family=Rubik:wght@400;500;600;700;800;900&display=swap');
+
+      body {
+        text-align: center;
+        font-family: 'Happy Monkey', cursive;
+        background: #a2d2ff;
+        color: #ffffff;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      p {
+        text-shadow: 0 0 1px black;
+      }
+
+      .profile-img {
+        width: 150px;
+        border-radius: 50%;
+        border: 6px solid #efb0c9;
+        margin-bottom: 10px;
+      }
+
+      /*
+Challenge:
+Make the bday elements look like the
+provided design slide.
+*/
+
+      #bday-age {
+        background: #efb0c9;
+        padding: 5px 10px;
+        border-radius: 5px;
+        margin: 5px 0 10px 0;
+      }
+
+      #bday-date {
+        margin: 0;
+        background: #efb0c9;
+        padding: 5px 10px;
+        border-radius: 5px;
+      }
+
+      header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Today is Pedro's birthday 🎉</h1>
+      <img
+        src="https://img.a.transfermarkt.technology/portrait/header/432895-1668696996.jpg?lm=1"
+        alt="Profile Pic"
+        class="profile-img"
+      />
+      <h2 id="bday-age">24 years old</h2>
+      <h4 id="bday-date">01.11.2022</h4>
+    </header>
+  </body>
+</html>

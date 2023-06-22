@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add a background gradient</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Orbitron:wght@400;800&family=Rubik:wght@400;500;600;700;800;900&display=swap');
+
+      /* 
+      Challenge:
+      Change the site's background into a gradient that goes
+      from blue at the top to pink at the bottom.
+      */
+      body {
+        text-align: center;
+        font-family: 'Happy Monkey', cursive;
+        background: linear-gradient(lightblue, pink);
+        color: #ffffff;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      p {
+        text-shadow: 0 0 1px black;
+      }
+
+      .profile-img {
+        width: 150px;
+        border-radius: 50%;
+        border: 6px solid #efb0c9;
+        margin-bottom: 10px;
+      }
+
+      #bday-age {
+        background: #efb0c9;
+        padding: 5px 10px;
+        border-radius: 5px;
+        margin: 5px 0 10px 0;
+      }
+
+      #bday-date {
+        margin: 0;
+        background: #efb0c9;
+        padding: 5px 10px;
+        border-radius: 5px;
+      }
+
+      header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .gift-section {
+        margin-top: 50px;
+      }
+
+      .gift-title {
+        margin-bottom: 10px;
+      }
+
+      .gift-hint {
+        margin-top: 0;
+      }
+
+      .gift-img {
+        width: 400px;
+        height: 400px;
+        margin: 0 auto;
+        border: 6px solid #efb0c9;
+        border-radius: 10px;
+        background: url('https://media.tenor.com/ycakT-72TBMAAAAC/present-gift.gif');
+        background-size: cover;
+      }
+
+      footer {
+        font-style: italic;
+        width: 400px;
+        margin: 40px auto 20px;
+      }
+
+      a {
+        color: tomato;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Today is Pedro's birthday 🎉</h1>
+      <img
+        src="https://img.a.transfermarkt.technology/portrait/header/432895-1668696996.jpg?lm=1"
+        alt="Profile Pic"
+        class="profile-img"
+      />
+      <h2 id="bday-age">24 years old</h2>
+      <h4 id="bday-date">01.11.2022</h4>
+    </header>
+
+    <div class="gift-section">
+      <h2 class="gift-title">Here's how happy I am for you today 🥳</h2>
+      <h3 class="gift-hint">(Hover over the gift)</h3>
+      <div class="gift-img"></div>
+    </div>
+
+    <!-- Add the footer here. -->
+    <footer>
+      <p>
+        Want to create your own Birthday GIFt site? Take
+        <a href="https://google.com" target="_blank">this HTML & CSS course.</a>
+      </p>
+    </footer>
+  </body>
+</html>

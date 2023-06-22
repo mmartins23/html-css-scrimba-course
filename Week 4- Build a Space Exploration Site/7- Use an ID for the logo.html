@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Use an ID for the logo</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;800&family=Rubik:wght@400;500;600;700;800;900&display=swap');
+      body {
+        font-family: 'Orbitron', sans-serif;
+        color: white;
+        background-image: url('https://images.unsplash.com/photo-1543722530-d2c3201371e7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2348&q=80');
+        background-size: cover;
+        text-align: center;
+      }
+
+      .btn {
+        padding: 6px 12px;
+        background: white;
+        border: none;
+      }
+
+      .underline {
+        text-decoration: underline;
+        color: white;
+      }
+
+      #main-logo {
+        width: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <img
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/1224px-NASA_logo.svg.png"
+      alt="Spacex Logo"
+      id="main-logo"
+    />
+    <h1>Join the <span class="underline">exploration</span></h1>
+    <button class="btn">Apply!</button>
+  </body>
+</html>

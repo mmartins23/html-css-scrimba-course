@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Justify the items</title>
+    <style>
+      body {
+        margin: 20px;
+      }
+
+      .avatar {
+        width: 150px;
+      }
+
+      .card {
+        padding: 20px;
+        display: flex;
+        /*
+    Challenge:
+    Add horizontal space around the flex children.
+    Hint: google "justify content"
+    */
+        justify-content: space-around;
+      }
+
+      .border-blue {
+        border: 1px dotted blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card border-blue">
+      <img
+        src="https://img.a.transfermarkt.technology/portrait/header/68290-1669394812.jpg?lm=1"
+        alt="Per Harald Borgen smiling at the camera with a colorful background"
+        class="avatar border-blue"
+      />
+      <div class="border-blue">
+        <h3>Neymar Jr.</h3>
+        <p>Football Player</p>
+        <h4>Rio, Brazil</h4>
+      </div>
+    </div>
+  </body>
+</html>
